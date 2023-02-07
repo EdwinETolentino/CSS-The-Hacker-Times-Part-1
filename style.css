@@ -20,6 +20,7 @@ width: 150px;
 }
 header{
     font-family: "Abril Fatface";
+    text-align: center;
 }
 header h1{
     font-family: "Roboto Slab";
@@ -28,5 +29,13 @@ header h1{
 }
 nav{
 color: #777;
+}
+nav{
+    position: sticky;
+    top: 5px;
+    background-color: rgb(254, 254, 254);
+}
+header div{
+    text-align: left;
 }
 
